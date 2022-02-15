@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".collection">
+
+
+    <EditText
+        android:id="@+id/suppcode"
+        android:layout_width="347dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="supplier code"
+        android:inputType="textPersonName"
+        android:textColorHint="#121111"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/suppname"
+        android:layout_width="347dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="supplier name"
+        android:inputType="textPersonName"
+        android:textColorHint="#1E1C1C"
+        app:layout_constraintEnd_toEndOf="@+id/suppcode"
+        app:layout_constraintStart_toStartOf="@+id/suppcode"
+        app:layout_constraintTop_toBottomOf="@+id/suppcode" />
+
+    <EditText
+        android:id="@+id/asnno"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="ASN NO"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#171616"
+        app:layout_constraintEnd_toEndOf="@+id/suppname"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/suppname"
+        app:layout_constraintTop_toBottomOf="@+id/suppname"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="346dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="weight(.kg)"
+        android:inputType="textPersonName"
+        android:textColorHint="#252323"
+        app:layout_constraintEnd_toEndOf="@+id/asnno"
+        app:layout_constraintStart_toStartOf="@+id/asnno"
+        app:layout_constraintTop_toBottomOf="@+id/asnno" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#1E1D1D"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/weight"
+        app:layout_constraintTop_toBottomOf="@+id/weight" />
+
+    <EditText
+        android:id="@+id/time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textColorHint="#131313"
+        app:layout_constraintEnd_toEndOf="@+id/date"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/date"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <EditText
+        android:id="@+id/filecoll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="file name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/time"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/time"
+        app:layout_constraintTop_toBottomOf="@+id/time" />
+
+    <Button
+        android:id="@+id/uploadfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="upload file"
+        app:layout_constraintEnd_toEndOf="@+id/filecoll"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/filecoll"
+        app:layout_constraintTop_toBottomOf="@+id/filecoll" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

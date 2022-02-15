@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "635182051610",
+    "project_id": "ltrpmlogistics",
+    "storage_bucket": "ltrpmlogistics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:635182051610:android:75f318e6cf8e3ff360bca3",
+        "android_client_info": {
+          "package_name": "com.example.ltrpmlogistics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "635182051610-hl7kj8a7iaeqe6d0k2rlfd6jov6slodf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAj-JzfuqKGVSA7iD8nik51AiFhk3fY0U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "635182051610-hl7kj8a7iaeqe6d0k2rlfd6jov6slodf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
